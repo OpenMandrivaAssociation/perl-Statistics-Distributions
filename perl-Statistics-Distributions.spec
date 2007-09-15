@@ -1,7 +1,7 @@
 %define real_name Statistics-Distributions
 %define	name perl-%{real_name}
 %define	version 1.02
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Summary:	Statistics::Distributions - Perl module for calculating critical values and upper probabilities of common statistical distributions
 Name:		%{name}
