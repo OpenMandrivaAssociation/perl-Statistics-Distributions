@@ -46,3 +46,48 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Statistics/*.pm
 %{perl_vendorlib}/auto/Statistics/Distributions/autosplit.ix
 %{_mandir}/man3/*
+
+
+%changelog
+* Sun Jan 22 2012 Oden Eriksson <oeriksson@mandriva.com> 1.20.0-4mdv2012.0
++ Revision: 765654
+- rebuilt for perl-5.14.2
+
+* Sat Jan 21 2012 Oden Eriksson <oeriksson@mandriva.com> 1.20.0-3
++ Revision: 764166
+- rebuilt for perl-5.14.x
+
+* Sat May 21 2011 Oden Eriksson <oeriksson@mandriva.com> 1.20.0-2
++ Revision: 676911
+- rebuild
+
+* Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 1.20.0-1mdv2010.0
++ Revision: 404413
+- rebuild using %%perl_convert_version
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.02-5mdv2009.0
++ Revision: 258385
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.02-4mdv2009.0
++ Revision: 246464
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 1.02-2mdv2008.1
++ Revision: 136347
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Sep 15 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.02-2mdv2008.0
++ Revision: 86919
+- rebuild
+
+
+* Wed Sep 13 2006 Oden Eriksson <oeriksson@mandriva.com> 1.02-1mdv2007.0
+- rebuild
+
+* Mon Jul 11 2005 Oden Eriksson <oeriksson@mandriva.com> 1.02-1mdk
+- initial Mandriva package
+
