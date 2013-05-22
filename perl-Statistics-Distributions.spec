@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 5
 
 Summary:	Calc critical values & upper probabilities of common statistical distributions
 License:	GPL+ or Artistic
