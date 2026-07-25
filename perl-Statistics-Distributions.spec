@@ -3,12 +3,12 @@
 
 Summary:	Calc critical values & upper probabilities of common statistical distributions
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	16
+Version:	%{modver}
+Release:	17
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MI/MIKEK/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/Statistics-Distributions
+Source0:	https://cpan.metacpan.org/authors/id/M/MI/MIKEK/Statistics-Distributions-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
